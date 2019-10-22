@@ -4929,7 +4929,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &1222388044
 GameObject:
@@ -4944,7 +4944,7 @@ GameObject:
   - component: {fileID: 1222388045}
   - component: {fileID: 1222388048}
   m_Layer: 0
-  m_Name: Fire
+  m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9679,8 +9679,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222388044}
   m_LocalRotation: {x: -0.8738984, y: -0, z: -0, w: 0.4861086}
-  m_LocalPosition: {x: -0.02491062, y: 1.3840969, z: 1.7684727}
-  m_LocalScale: {x: 2.491062, y: 3.301735, z: 0.32679874}
+  m_LocalPosition: {x: -0.024910707, y: 1.1937613, z: 0.3621098}
+  m_LocalScale: {x: 2.491062, y: 2.1145647, z: 1.5139694}
   m_Children: []
   m_Father: {fileID: 1686866596}
   m_RootOrder: 0
@@ -9741,7 +9741,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 2.3509887e-38, z: 2.7108363e-20, w: -2.1175829e-22}
+  m_BoundingSphereOverride: {x: 1.3e-44, y: 0, z: 1, w: 1.208e-42}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -10006,12 +10006,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686866592}
   m_LocalRotation: {x: 0.2742088, y: -0, z: -0, w: 0.9616702}
-  m_LocalPosition: {x: 0, y: 0.0965, z: 0.783}
-  m_LocalScale: {x: 0.040143523, y: 0.30799267, z: 0.30094287}
+  m_LocalPosition: {x: 0.000000035677, y: 0.965, z: 0.783}
+  m_LocalScale: {x: 0.40143523, y: 0.8791432, z: 0.40143523}
   m_Children:
   - {fileID: 1222388047}
-  m_Father: {fileID: 1814393149}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 31.830002, y: 0, z: 0}
 --- !u!1 &1814393145
 GameObject:
@@ -10101,8 +10101,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 1}
-  m_Children:
-  - {fileID: 1686866596}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
